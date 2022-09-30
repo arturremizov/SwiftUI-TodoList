@@ -11,4 +11,8 @@ struct ItemModel: Identifiable {
     var id: String = UUID().uuidString
     let title: String
     let isCompleted: Bool
+    
+    func updateCompletion() -> ItemModel {
+        return ItemModel(id: id, title: title, isCompleted: !isCompleted)
+    }
 }
