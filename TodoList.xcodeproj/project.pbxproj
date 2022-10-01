@@ -14,6 +14,7 @@
 		AF18C7FE28E626EB00F1AF24 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18C7FD28E626EB00F1AF24 /* ListRowView.swift */; };
 		AF18C80028E629F600F1AF24 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18C7FF28E629F600F1AF24 /* AddView.swift */; };
 		AF18C80328E62F7200F1AF24 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18C80228E62F7200F1AF24 /* ItemModel.swift */; };
+		AF8CE9BD28E8CF520099E716 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8CE9BC28E8CF520099E716 /* NoItemsView.swift */; };
 		AF9660F128E7166000647E92 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9660F028E7166000647E92 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		AF18C7FD28E626EB00F1AF24 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		AF18C7FF28E629F600F1AF24 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		AF18C80228E62F7200F1AF24 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		AF8CE9BC28E8CF520099E716 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		AF9660F028E7166000647E92 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				AF18C7FB28E625C200F1AF24 /* ListView.swift */,
 				AF18C7FD28E626EB00F1AF24 /* ListRowView.swift */,
 				AF18C7FF28E629F600F1AF24 /* AddView.swift */,
+				AF8CE9BC28E8CF520099E716 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				AF9660F128E7166000647E92 /* ListViewModel.swift in Sources */,
 				AF18C7ED28E6252300F1AF24 /* TodoListApp.swift in Sources */,
 				AF18C7FC28E625C200F1AF24 /* ListView.swift in Sources */,
+				AF8CE9BD28E8CF520099E716 /* NoItemsView.swift in Sources */,
 				AF18C7FE28E626EB00F1AF24 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
